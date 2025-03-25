@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sesion24-02.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Task Management</h3>
+        <div class="containerInput">
+            <input type="text" placeholder="Content" id="Content">
+            <input type="date" id="date">
+            <select name="" id="selectInput">
+                <option value="Choose status">Choose status</option>
+                <option value="Pending">Pending</option>
+                <option value="Resolved">resolved</option>
+            </select>
+            <input type="text" placeholder="Username" id="userName">
+            <button id="btnSubmit">Submit</button>
+        </div>
+
+        <div class="containerTitle">
+            <p class="nav">#</p>
+            <p class="nav">Content</p>
+            <p class="nav">Due date</p>
+            <p class="nav">Status</p>
+            <p class="nav">Assigned to</p>
+            <p class="nav"> Action</p>
+        </div>
+
+        <div class="containerContent" id="containerContent"></div>
+    </div>
+    <script src="./sesion24-02.js"></script>
+</body>
+
+</html>
