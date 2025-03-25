@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách nhân viên Rikkei</title>
+    <link rel="stylesheet" href="./sesion34-05.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Danh sách nhân viên Rikkei</h2>
+        <div class="containerAdd">
+            <label for="username">Tên nhân viên:</label>
+            <input type="text" id="username" placeholder="Nhập tên nhân viên...">
+
+            <label for="position">Chức vụ:</label>
+            <input type="text" id="position" placeholder="Nhập chức vụ...">
+
+            <button class="btnAdd" onclick="addList()">Thêm nhân viên</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Tên</th>
+                    <th>Chức vụ</th>
+                </tr>
+            </thead>
+            <tbody id="employeeTable">
+                <!-- Nhân viên sẽ được thêm vào đây -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./sesion34-05.js"></script>
+</body>
+
+</html>
